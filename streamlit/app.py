@@ -15,7 +15,7 @@ with open("artifacts/label_encoder_gender.pkl", "rb") as file:
 with open("artifacts/onehot_encoder_geography.pkl", "rb") as file:
     onehot_encoder_geography = pickle.load(file)
 
-with open('artifacts/Standard_Scaler.pkl', "rb") as file:
+with open('artifacts/standard_scaler.pkl', "rb") as file:
     scaler = pickle.load(file)
 
 
