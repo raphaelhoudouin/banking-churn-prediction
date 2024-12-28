@@ -21,7 +21,7 @@ The **Bank Customer Churn Prediction** app uses deep learning to predict whether
 
 The app allows users to input a customer's data and instantly receive a prediction of the likelihood of the customer churning. The project also includes preprocessing steps like encoding categorical variables and scaling numerical inputs.
 
-![churn-prediction](streamlit_screenshot.png).
+![Streamlit App Screenshot](streamlit/streamlit_screenshot.png)
 
 ## About the Data
 
