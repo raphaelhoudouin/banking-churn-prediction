@@ -52,7 +52,7 @@ with st.form(key="input_form"):
     age = st.slider('Age', 18, 92, 30)
     balance = st.number_input('Balance', min_value=0, step=1000, value=50000)
     credit_score = st.number_input('Credit Score', min_value=300, max_value=850, step=10, value=650)
-    estimated_salary = st.number_input('Estimated Salary', min_value=10000, step=1000, value=50000)
+    estimated_salary = st.number_input('Estimated Salary (annual)', min_value=10000, step=1000, value=50000)
     tenure = st.slider('Tenure (in years)', 0, 10, 1)
     num_of_products = st.slider('Number of Products', 1, 4, 2)
     has_cr_card = st.selectbox("Has Credit Card", [0, 1])
