@@ -44,7 +44,7 @@ with st.form(key="input_form"):
         3️⃣View the churn probability and prediction.
     """)
 
-with st.form(key="input_form"):
+with st.form(key="customer_form_1"):
     st.subheader("Customer Information")
     
     # Add form fields
