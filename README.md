@@ -28,10 +28,6 @@ The Streamlit application enables users to input a customer's demographic and ac
 You can try the application live here:  
 [Banking Churn Predictor](https://banking-churn-predictor-c5rmuspwcy8xnfgt773q48.streamlit.app)
 
-## Screenshot
-
-![Streamlit App Screenshot](streamlit/streamlit_screenshot.png)
-
 ## Features
 - User-friendly input forms.
 - Churn probability prediction using a pre-trained neural network.
