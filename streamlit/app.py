@@ -38,9 +38,12 @@ with st.form(key="input_form"):
     st.subheader("Customer Information")
     
     # Step-by-step instructions within the form
-    st.info("1️⃣ Fill in the customer's details in the form.  
-             2️⃣ Click **Predict Churn**.  
-             3️⃣ View the churn probability and prediction.")
+    st.info("""
+    1️⃣ Fill in the customer's details in the form.  
+    2️⃣ Click **Predict Churn**.  
+    3️⃣ View the churn probability and prediction.
+""")
+
 
 # Create a form for input fields
 with st.form(key="input_form"):
