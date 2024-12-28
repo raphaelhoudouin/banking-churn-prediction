@@ -21,7 +21,7 @@ The **Bank Customer Churn Prediction** app uses deep learning to predict whether
 
 # Customer Churn Prediction App
 
-The Streamlit application enables users to input a customer's demographic and account-related data to instantly predict the likelihood of customer churn. The project includes robust preprocessing steps, such as encoding categorical variables and scaling numerical inputs, to ensure accurate predictions using a pre-trained neural network model.
+The Streamlit app enables users to input a customer's demographic and account-related data to instantly predict the likelihood of customer churn. The project includes robust preprocessing steps, such as encoding categorical variables and scaling numerical inputs, to ensure accurate predictions using a pre-trained neural network model.
 
 ## Live App
 
