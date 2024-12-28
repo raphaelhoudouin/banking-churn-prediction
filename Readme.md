@@ -158,7 +158,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Shubham Prajapati - [@shubhamprajapati7748@gmail.com](shubhamprajapati7748@gmail.com)
+For any questions or feedback, please contact the project maintainer: **rhoudouin** (GitHub: https://github.com/rhoudouin).
+
 
 ## Acknowledgements
 
