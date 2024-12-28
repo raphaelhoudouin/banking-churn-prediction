@@ -7,15 +7,15 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load pre-trained model and encoders
-model = tf.keras.models.load_model("Artifacts/ann_model.h5")
+model = tf.keras.models.load_model("artifacts/ann_model.h5")
 
-with open("Artifacts/label_encoder_gender.pkl", "rb") as file:
+with open("artifacts/label_encoder_gender.pkl", "rb") as file:
     label_encoder_gender = pickle.load(file)
 
-with open("Artifacts/onehot_encoder_geography.pkl", "rb") as file:
+with open("artifacts/onehot_encoder_geography.pkl", "rb") as file:
     onehot_encoder_geography = pickle.load(file)
 
-with open('Artifacts/Standard_Scaler.pkl', "rb") as file:
+with open('artifacts/Standard_Scaler.pkl', "rb") as file:
     scaler = pickle.load(file)
 
 
