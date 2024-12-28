@@ -1,5 +1,0 @@
-[theme]
-base = "dark"  # Active le mode sombre
-
-[server]
-headless = true  # Exécute l'app en mode sans tête
