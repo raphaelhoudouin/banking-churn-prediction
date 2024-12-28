@@ -31,7 +31,7 @@ st.set_page_config(
 st.title("Customer Churn Prediction")
 
 # Info message at the top for general guidance
-st.info("Provide customer details in the form and click **Predict Churn** to know the probability of churn. Adjust the sliders and inputs to explore different scenarios!")
+st.info("Provide customer details in the form and click **Predict Churn** to know the probability of churn. Adjust the sliders and inputs to explore different scenarios.")
 
 # Create a form for input fields
 with st.form(key="input_form"):
