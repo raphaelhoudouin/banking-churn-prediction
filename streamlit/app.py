@@ -33,10 +33,6 @@ st.title("Customer Churn Prediction")
 # Info message at the top for general guidance
 st.info("Provide customer details in the form and click **Predict Churn** to know the probability of churn. Adjust the sliders and inputs to explore different scenarios!")
 
-# Create a form for input fields
-with st.form(key="input_form"):
-    st.subheader("Customer Information")
-    
     # Step-by-step instructions within the form
     st.info("""
         1️⃣ Fill in the customer's details in the form.  
@@ -44,9 +40,6 @@ with st.form(key="input_form"):
         3️⃣View the churn probability and prediction.
     """)
 
-with st.form(key="customer_form_1"):
-    st.subheader("Customer Information")
-    
     # Add form fields
     geography = st.selectbox('Geography', onehot_encoder_geography.categories_[0])
     gender = st.selectbox('Gender', label_encoder_gender.classes_)
