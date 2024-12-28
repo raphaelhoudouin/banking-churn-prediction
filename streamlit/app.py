@@ -30,16 +30,6 @@ st.set_page_config(
 # Streamlit app
 st.title("Customer Churn Prediction")
 
-# Info message at the top for general guidance
-st.info("Provide customer details in the form and click **Predict Churn** to know the probability of churn. Adjust the sliders and inputs to explore different scenarios!")
-
-    # Step-by-step instructions within the form
-st.info("""
-        1️⃣ Fill in the customer's details in the form.  
-        2️⃣ Click **Predict Churn**.  
-        3️⃣View the churn probability and prediction.
-    """)
-
     # Add form fields
 geography = st.selectbox('Geography', onehot_encoder_geography.categories_[0])
 gender = st.selectbox('Gender', label_encoder_gender.classes_)
