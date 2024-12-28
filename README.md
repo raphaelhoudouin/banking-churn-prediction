@@ -168,10 +168,6 @@ We welcome contributions to improve this project! Whether you are fixing bugs, a
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
-
-For any questions or feedback, please contact the project maintainer: **rhoudouin** (GitHub: https://github.com/rhoudouin).
-
 
 ## Acknowledgements
 
@@ -179,3 +175,7 @@ For any questions or feedback, please contact the project maintainer: **rhoudoui
 - [Streamlit](https://streamlit.io/): For creating the interactive web application.
 - [Scikit-learn](https://scikit-learn.org/): For preprocessing utilities such as scaling and encoding.
 - [Kaggle](https://www.kaggle.com/): For the inspiration behind the dataset, which is similar to the dataset used in this project.
+
+## Contact
+
+For any questions or feedback, please contact the project maintainer: **rhoudouin** (GitHub: https://github.com/rhoudouin).
