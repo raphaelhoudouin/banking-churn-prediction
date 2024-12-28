@@ -25,7 +25,6 @@ st.set_page_config(
     page_icon="📊",                        # Optionally set an emoji icon for the tab
     layout="centered",                     # 'centered' or 'wide'
     initial_sidebar_state="auto"            # 'auto', 'expanded', or 'collapsed'
-    theme="dark"                            # Set dark mode theme
 )
 
 import streamlit as st
