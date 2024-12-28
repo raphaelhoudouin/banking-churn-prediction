@@ -27,6 +27,37 @@ st.set_page_config(
     initial_sidebar_state="auto"            # 'auto', 'expanded', or 'collapsed'
 )
 
+import streamlit as st
+
+# Theme=dark
+st.markdown(
+    """
+    <style>
+        body {
+            background-color: #0e1117;  /* Arrière-plan sombre */
+            color: white;               /* Texte blanc */
+        }
+        .stButton>button {
+            color: white;
+            background-color: #1f2937;  /* Boutons sombres */
+            border-radius: 5px;
+        }
+        .stSlider>div>div>div>div {
+            background-color: #1f2937;  /* Sliders sombres */
+        }
+        .stSelectbox>div>div>div {
+            background-color: #1f2937;  /* Sélecteurs sombres */
+            color: white;
+        }
+        .stTextInput>div>div>div>input {
+            background-color: #1f2937;  /* Champs de texte sombres */
+            color: white;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Streamlit app
 st.title("Customer Churn Prediction")
 
