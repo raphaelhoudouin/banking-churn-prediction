@@ -34,7 +34,7 @@ st.title("Customer Churn Prediction")
 st.info("Provide customer details in the form and click **Predict Churn** to know the probability of churn. Adjust the sliders and inputs to explore different scenarios!")
 
     # Step-by-step instructions within the form
-    st.info("""
+st.info("""
         1️⃣ Fill in the customer's details in the form.  
         2️⃣ Click **Predict Churn**.  
         3️⃣View the churn probability and prediction.
