@@ -117,3 +117,11 @@ st.sidebar.write("""
 
 # Display an info message for the user
 st.info("Please input the customer's details and click **Predict Churn** to receive the churn prediction probability.")
+
+# Credits at the bottom of the main page
+st.markdown("""
+    ---
+    **Developed by [rhoudouin](https://github.com/rhoudouin).**  
+    For inquiries or feedback, feel free to visit the GitHub profile.
+""")
+
