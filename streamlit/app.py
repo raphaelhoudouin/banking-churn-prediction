@@ -29,7 +29,7 @@ st.set_page_config(
 import streamlit as st
 
 # Streamlit app
-st.title("Bank Customer Churn Prediction")
+st.title("Bank Churn Prediction")
 
 # Info message at the top for general guidance
 st.info("Provide customer details in the form and click **Predict Churn** to know the probability of churn. Adjust the sliders and inputs to explore different scenarios.")
