@@ -18,7 +18,6 @@ with open("artifacts/onehot_encoder_geography.pkl", "rb") as file:
 with open('artifacts/standard_scaler.pkl', "rb") as file:
     scaler = pickle.load(file)
 
-
 # Set the page title and other configurations
 st.set_page_config(
     page_title="Customer Churn Prediction",  # Title of the page
@@ -58,8 +57,6 @@ with st.form(key="input_form"):
     has_cr_card = st.selectbox("Has Credit Card", [0,1])
     is_active_member = st.selectbox("Is Active Member", [0, 1]) 
     
-
-
     # Submit button
     submit_button = st.form_submit_button("Predict Churn")
 
