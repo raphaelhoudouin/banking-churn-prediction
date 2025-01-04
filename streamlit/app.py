@@ -30,7 +30,7 @@ st.set_page_config(
 import streamlit as st
 
 # Streamlit app
-st.title("Customer Churn Prediction")
+st.title("Bank Customer Churn Prediction")
 
 # Info message at the top for general guidance
 st.info("Provide customer details in the form and click **Predict Churn** to know the probability of churn. Adjust the sliders and inputs to explore different scenarios.")
@@ -55,7 +55,7 @@ with st.form(key="input_form"):
     estimated_salary = st.number_input('Estimated Salary (annual)', min_value=10000, step=1000, value=50000)
     tenure = st.slider('Tenure (in years)', 0, 10, 1)
     num_of_products = st.slider('Number of Products', 1, 4, 2)
-    has_cr_card = st.selectbox("Has Credit Card", [0, 1])
+    has_cr_card = st.selectbox("Has Credit Card", [No,Yes])
     is_active_member = st.selectbox("Is Active Member", [0, 1])
 
     # Submit button
