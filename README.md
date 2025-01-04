@@ -33,7 +33,7 @@ Try the live application here: [Banking Churn Predictor](https://raphaelhoudouin
 - Interactive and easy-to-use interface.
 
 
-![Streamlit App Screenshot](streamlit/streamlit_screenshot.png)
+![Streamlit App Screenshot](https://github.com/RaphaelHoudouin/banking-churn-prediction/blob/main/screenshots/Customer_Churn_Prediction_App_screenshot.png)
 
 ## About the Data
 
