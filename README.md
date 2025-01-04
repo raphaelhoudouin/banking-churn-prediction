@@ -17,8 +17,7 @@
 
 ## About The Project
 
-The **Bank Customer Churn Prediction** app uses deep learning to predict whether a bank customer will churn (leave the bank) or not, based on their demographic and account-related infohttps://github.com/rhoudouin/banking-churn-prediction/blob/main/README.mdrmation. The app is powered by a deep learning ANN model that analyzes various features such as customer age, account balance, credit score, and services availed by the customer. Built with TensorFlow for the model and Streamlit for the front-end web application, the app offers an interactive interface to predict customer churn in real-time.
-
+The **Bank Customer Churn Prediction** app leverages deep learning to predict whether a bank customer will churn (leave the bank) based on demographic and account-related features. Powered by an Artificial Neural Network (ANN) model built with TensorFlow, the app analyzes key factors such as customer age, account balance, credit score, and services used. With Streamlit for the front-end interface, the app provides an interactive, real-time platform to predict customer churn and gain valuable insights into customer behavior.
 # Customer Churn Prediction App
 
 The Streamlit app enables users to input a customer's demographic and account-related data to instantly predict the likelihood of customer churn. The project includes robust preprocessing steps, such as encoding categorical variables and scaling numerical inputs, to ensure accurate predictions using a pre-trained neural network model.
