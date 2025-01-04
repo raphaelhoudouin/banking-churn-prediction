@@ -178,4 +178,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-For any questions or feedback, please contact the project maintainer: **rhoudouin** (GitHub: https://github.com/rhoudouin).
+For any questions or feedback, please contact the project maintainer: **RaphaelHoudouin**.  
+GitHub: [RaphaelHoudouin](https://github.com/RaphaelHoudouin)
+
+
