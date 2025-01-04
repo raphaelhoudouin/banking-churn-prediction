@@ -58,9 +58,9 @@ with st.form(key="input_form"):
     has_cr_card = st.selectbox("Has Credit Card", [0,1])
     is_active_member = st.selectbox("Is Active Member", [0, 1])
 
-# Displaying Yes/No based on the selected value
-st.write(f"Has Credit Card: {'Yes' if has_cr_card == 1 else 'No'}")
-st.write(f"Is Active Member: {'Yes' if is_active_member == 1 else 'No'}")
+    # Displaying Yes/No based on the selected value
+    st.write(f"Has Credit Card: {'Yes' if has_cr_card == 1 else 'No'}")
+    st.write(f"Is Active Member: {'Yes' if is_active_member == 1 else 'No'}")
 
     # Submit button
     submit_button = st.form_submit_button("Predict Churn")
