@@ -57,7 +57,7 @@ with st.form(key="input_form"):
     num_of_products = st.slider('Number of Products', 1, 4, 2)
     has_cr_card = st.selectbox("Has Credit Card", [0,1])
     is_active_member = st.selectbox("Is Active Member", [0, 1]) 
-    }
+    
 
 
     # Submit button
