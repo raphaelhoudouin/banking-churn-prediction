@@ -32,7 +32,7 @@ Try the live application here: [Banking Churn Predictor](https://raphaelhoudouin
 - Interactive and easy-to-use interface.
 
 
-![Streamlit App Screenshot](https://github.com/RaphaelHoudouin/banking-churn-prediction/blob/main/screenshots/customer-churn-prediction-app-screenshot.png)
+![Streamlit App Screenshot](https://github.com/raphaelohudouin/banking-churn-prediction/blob/main/screenshots/customer-churn-prediction-app-screenshot.png)
 
 ## About the Data
 
@@ -178,6 +178,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 For any questions or feedback, please contact the project maintainer: **RaphaelHoudouin**.  
-GitHub: [RaphaelHoudouin](https://github.com/RaphaelHoudouin)
+GitHub: [raphaelhoudouin](https://github.com/raphaelhoudouin)
 
 
