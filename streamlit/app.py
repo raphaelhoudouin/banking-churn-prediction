@@ -128,7 +128,7 @@ st.info("Please input the customer's details and click **Predict Churn** to rece
 # Credits at the bottom of the main page
 st.markdown("""
     ---
-    **Developed by [RaphaelHoudouin](https://github.com/RaphaelHoudouin).**  
+    **Developed by [raphaelhoudouin](https://github.com/raphaelhoudouin).**  
     For inquiries or feedback, feel free to visit the GitHub profile.
 """)
 
