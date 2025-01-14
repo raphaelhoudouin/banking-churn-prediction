@@ -62,7 +62,7 @@ The **target variable** is `Exited`, which represents whether the customer has c
 ## Dataset Source Link
 
 You can download the dataset from Kaggle here:  
-[Bank Customer Churn Prediction Dataset](https://www.kaggle.com/code/kmalit/bank-customer-churn-prediction)
+[Bank Customer Churn Prediction Dataset](https://www.kaggle.com/code/kmalit/bank-customer-churn-prediction).
 
 ## Technology Stack
 
